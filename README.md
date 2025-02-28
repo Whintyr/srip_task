@@ -13,7 +13,7 @@ runs/detect/train/weights/best.pt
 - `dataset_generation.ipynb` - Code for dataset creation with augmentations and train/val/test split.
 - `EDA.ipynb` - Exploratory Data Analysis (EDA) notebook visualizing dataset labels.
 - `AP_calculations.ipynb` - Implementation of Average Precision (AP) calculations with a demo on randomly generated images.
-- `strip-yolo-training.ipynb` - YOLOv8 training script along with results and metric curves.
+- `srip-yolo-training.ipynb` - YOLOv8 training script along with results and metric curves.
 - `runs/detect/train/` - Contains training logs, results, and performance metrics.
 
 ---
@@ -44,7 +44,7 @@ The EDA notebook (`EDA.ipynb`) contains visualizations that analyze the distribu
 
 ## Model Training & Performance
 
-A **YOLOv8** model was trained on the generated dataset using the `strip-yolo-training.ipynb` script. Training was performed on **Kaggle GPU**, and the model achieved an impressive **mAP50 of 0.98803**.
+A **YOLOv8** model was trained on the generated dataset using the `srip-yolo-training.ipynb` script. Training was performed on **Kaggle GPU**, and the model achieved an impressive **mAP50 of 0.98803**.
 
 Key results and performance curves are available in:
 ```
