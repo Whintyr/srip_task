@@ -1,6 +1,6 @@
 # YOLOv8 Object Detection Pipeline
 
-## 📌 Overview
+## Overview
 This repository contains the complete pipeline for object detection using YOLOv8, including dataset preparation, exploratory data analysis, model training, and performance evaluation. The best-trained model can be found at:
 
 ```
